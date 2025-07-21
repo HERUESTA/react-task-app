@@ -36,6 +36,7 @@ export default function TaskFormContainer() {
     navigate("/tasks");
   };
 
+  {/* 新規作成時にはidは必要ないためnullを渡す */}
   return (
     <div className={styles.container}>
       <h1>新規タスク作成</h1>
